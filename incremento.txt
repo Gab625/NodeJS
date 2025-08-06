@@ -1,0 +1,4 @@
+idade = 5
+console.log(++idade)
+console.log(idade++)
+console.log(idade)
