@@ -1,0 +1,6 @@
+b = prompt("Qual a base do triangulo? ")
+h = prompt("Qual a altura do triangulo? ")
+
+a = (b*h)/2
+
+console.log("A area do triangulo é: "+a)
