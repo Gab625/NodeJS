@@ -1,0 +1,3 @@
+for(cont=1;cont<=5;cont++){
+  console.log("Número: "+cont)
+}
