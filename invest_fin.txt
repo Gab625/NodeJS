@@ -1,0 +1,16 @@
+ce = prompt ("Informe o Capital de Entrada: ")
+m = prompt ("Informe o número de meses que o valor será aplicado: ")
+tx = prompt ("Informe a taxa de rentabilidade ao mês: ")
+
+cc = Number(ce)
+
+for(i=0;i<m;i++){
+  vc = cc * tx
+  cc = cc + vc
+}
+
+console.log("CAPITAL DE ENTRADA: "+ce)
+console.log("MESES QUE O VALOR SERÁ APLICADO: "+m)
+console.log("TAXA DE RENTABILIDADE AO MÊS: "+tx)
+
+console.log("VALOR CAPITALIZADO: "+cc)
