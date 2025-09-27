@@ -1,0 +1,57 @@
+Q1 e Q2
+
+> classe livro
+
+atributos da classe livro
+- titulo
+- autor
+- gênero
+- ano de publicação
+- preço
+- estoque
+
+
+> classe Cadastro
+
+atributos da classe cadastro
+- nome
+- email
+- telefone
+- endereço
+
+
+> classe Compra
+
+atributos da classe compra
+- data de compra 
+- forma de pagamento
+- lista de livros compradas
+
+métodos da classe compra
+- desconto para quem fez mais de 5 pedidos (lista de livros compradas)
+
+
+> classe Item_pedido
+- livro (Livro)
+- qtde
+________________________________________________________________________________________
+
+Q3
+
+- A classe Compra se relaciona com a classe Livro, alterando o estoque, do livro comprado
+
+- A classe Cadastro se relaciona com a classe Compra, sendo necessário ter um cadastro valido para realização de compra,
+além de se relacionar no desconto, armazenando histórico de compra para posteriormente aplicar desconto de quem fez
+mais de 5 pedidos
+______________________________________________________________________________________
+
+Q4
+
+> classe Avaliar
+
+atributos da classe avaliar
+- cliente (Cliente)
+- livro (Livro)
+- data_avaliacao
+- texto sobre a avaliacao
+- avaliação
