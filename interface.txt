@@ -1,0 +1,29 @@
+interface Carro {
+    partes: Array<string>
+    montar():void
+}
+
+class CarroModeloA implements Carro {
+    partes: Array<string> = ["motor1.0","cambio_manual"]
+
+    montar(): void {
+        console.log(this.partes.join("|"))
+    }
+} 
+
+class CarroModeloB implements Carro {
+    partes: Array<string> = ["motor2.0","cambio_automatico"]
+
+    montar(): void {
+        console.log(this.partes.join("/"))
+    }
+}
+
+const carroX: CarroModeloA = new CarroModeloA()
+const carroY: CarroModeloB = new CarroModeloB()
+
+function montarCarros(carros: Array<Carro>){
+    carros.forEach((carro) => carro.montar())
+}
+
+montarCarros([carroX,carroY])
