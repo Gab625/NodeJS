@@ -1,0 +1,37 @@
+type Produto = {
+    nome: string,
+    preco: Number,
+    qtde: Number,
+    soma: Number
+}
+
+const itens: Array<Produto> = []
+let resultado: Number = 0
+
+while (true) {
+    let nm: string = prompt("Informe o nome do produto: ")
+    let prc: Number = Number(prompt("Informe o valor do produto: "))
+    let qtd: Number = Number(prompt("Informe a qtde do produto comprado: "))
+    let sm: Number = qtd * prc
+
+    itens.push(
+        {
+            nome: nm,
+            preco: prc,
+            qtde: qtd,
+            soma: sm
+        }
+    );
+
+    resultado += sm
+
+    console.log("Desc: "+nm+" R$ "+prc+" qtde "+qtd" total "+sm)
+    console.log("------------------------")
+     
+    const ct: string = prompt("Deseja Continuar? Pressione ENTER para continuar")
+    if(ct == "N"){
+        break
+    }
+}
+
+console.log(`Preço Total: RS${resultado}`)

@@ -1,0 +1,10 @@
+//Conceito "let" declara variável com escopo de bloco
+//Conceito "var" declara variável com escopo global
+//Conceito "const" declara variável com valor constante
+
+function somar (a, b){
+  return a + b
+}
+
+resultado = somar (2, 3)
+console.log(resultado)

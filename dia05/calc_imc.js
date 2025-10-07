@@ -1,0 +1,6 @@
+peso = prompt("Informe o peso em kg: ")
+altura = prompt("Informe a altura em metros: ")
+
+imc = peso/(Math.pow(altura,2))
+
+console.log("Seu IMC é: "+imc)

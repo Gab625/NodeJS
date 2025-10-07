@@ -1,0 +1,15 @@
+peso = prompt("Informe o peso em kg: ")
+altura = prompt("Informe a altura em metros: ")
+
+imc = (peso/(Math.pow(altura,2))).toFixed(2).replace('.',',')
+
+console.log("Seu IMC é: "+imc)
+nota = prompt("Informe sua nota: ")
+
+if(nota >= 9) {
+  console.log("Excelente!")
+} else if (nota >= 6) {
+  console.log("Aprovado")
+} else {
+  console.log("Reprovado")
+}

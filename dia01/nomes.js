@@ -1,0 +1,3 @@
+nome1 = prompt("Quais são os seus nomes?")
+nome2 = prompt("Quais são os seus nomes?")
+console.log("Olá "+nome1+" e Olá "+nome2)

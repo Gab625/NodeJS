@@ -1,0 +1,12 @@
+cont = 1
+
+while(cont<=25){
+  
+  if(cont%3==0){
+    console.log("PIM")
+  } else {
+    console.log(cont)
+  }
+
+  cont++
+}

@@ -1,0 +1,10 @@
+contador = 1
+
+while(true){
+  console.log("Número: "+contador)
+  contador++
+
+  if (contador>5){
+    break
+  }
+}

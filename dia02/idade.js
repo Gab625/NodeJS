@@ -1,0 +1,15 @@
+i = 0
+d = 0
+h = 0
+m = 0
+s = 0
+
+
+i = prompt("Informe sua idade?")
+
+d = 365*i
+h = d*24
+m = h*60
+s = m*60
+
+console.log("Você tem "+i+" anos "+d+" dias "+h+" horas "+m+" minutos "+s+" segundos")

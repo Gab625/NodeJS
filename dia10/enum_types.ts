@@ -1,0 +1,8 @@
+enum Tiposdepagamentos {
+    credito = "cartao_credito",
+    debito = "cartao_debito",
+    pix = "transfer_pix"
+}
+
+const pagamento: Tiposdepagamentos = Tiposdepagamentos.pix
+console.log(pagamento)

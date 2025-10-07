@@ -1,0 +1,18 @@
+x = prompt("Informe um número")
+par=0
+impar=0
+
+while (x!=0){
+    if(x%2==0){
+    par++
+  }
+
+  if(x%2!=0){
+    impar++
+  }
+
+x = prompt("Informe um número")
+}
+
+console.log(par)
+console.log(impar)
